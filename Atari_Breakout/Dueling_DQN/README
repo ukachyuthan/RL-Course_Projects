@@ -1,0 +1,6 @@
+The trained model is the file policy_model which has been written to be loaded everytime test_dqn is run
+
+CAUTION: It saves every subsequent model as policy_model_ and this file will have to be renamed to policy_model to run it with the test_dqn option.
+
+CAUTION: This code is very intense on CPU as mentioned in my report. I required 16 cores and 100 GB of CPU memory and 2 GPUs to train this model.
+	 The code crashed my system whenever I trained on my PC and required the cloud.
